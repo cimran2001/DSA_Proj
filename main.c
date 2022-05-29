@@ -58,7 +58,7 @@ void showHelp() {
     
     printf("\tUsage: \n");
     printf("./{program_name} {input_filename} -o {output_filename}\n");
-    printf("./{program_name} -h");
+    printf("./{program_name} -h\n");
 }
 
 bool endsWith(const char *string, const char *suffix) {
